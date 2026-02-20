@@ -1,11 +1,11 @@
 # Ground Effect on a NACA 4412 Airfoil  
-**ME-474 – Numerical Flow Simulation (EPFL)**  
+**ME-474 – Numerical Flow Simulation (EPFL)**
 
 ## Overview
 
-This project investigates the aerodynamic behavior of a **NACA 4412 airfoil in ground effect** using 2D RANS simulations in ANSYS Fluent.
+This project investigates the aerodynamic behavior of a NACA 4412 airfoil in ground effect using 2D RANS simulations in ANSYS Fluent.
 
-The objective is to quantify the variation of **lift (CL)** and **drag (CD)** as a function of ground clearance ratio \( h/c \).
+The objective is to quantify the variation of lift (CL) and drag (CD) as a function of ground clearance ratio \( h/c \).
 
 ## Methodology
 
@@ -25,9 +25,9 @@ Mesh and domain convergence studies were performed to ensure solution independen
 ## Key Results
 
 - Lift increases as ground clearance decreases.
-- Drag decreases initially, reaching a minimum at **h/c ≈ 1.0**.
+- Drag decreases initially, reaching a minimum at h/c ≈ 1.0.
 - Very low clearances cause drag increase due to viscous confinement effects.
-- Maximum aerodynamic efficiency (CL/CD) occurs at **h/c ≈ 1.0** (2D model).
+- Maximum aerodynamic efficiency (CL/CD) occurs at h/c ≈ 1.0 (2D model).
 
 ## Limitations
 
@@ -43,3 +43,7 @@ Results represent sectional behavior, not full aircraft performance.
 - ANSYS Fluent  
 - Structured meshing  
 - RANS (Spalart–Allmaras)
+
+  # Report
+
+  A complete report of the project is present in the Ground_effect_on_an_airfoil.pdf file.
